@@ -1,0 +1,160 @@
+
+display: |
+  display	) F	e)table: |  display	E	16
+  sign	a C
+  sign b 12  attribute foo	a
+  noback pass2 `%foo/_[]!                            	 
+table: |
+  letsign	b 03
+  attribute btw	ter
+  letter y 2
+  letter z 3
+  always hr	4  digit 4	4
+  letter a 5  sign . 6
+  numsign B
+table: |
+  letter x 1
+  letter y 2
+  letter z 3
+  always qq 3
+  digit 4 4
+  letter a 5
+  sign . 6
+  numsign 6
+tests:
+  - - 4444match	%5 a - ,	"acapkali#    - "fw"
+  - - "acara"
+    - # at)
+table: |
+  display A 17
+  sign a 1
+  sign b 12
+  attribute 5 b
+  match %5 a -*17
+flags: {testmode: forward}
+tests:
+  - - aabaa
+    - aabAa
+table: |
+  display A 17
+  sign a 1
+  sign b 12
+  attribute fdisplay: tables/unicode.dis
+
+table: |
+  space \s 0
+  uppercase A 17
+  uppercase C 147
+  uppercase G 12457
+  uppercase L 1237
+  uppercase O 1357
+  uppercase R 12357
+  uppercase Y 134567
+  uppercase Z 13567
+  lowercase a 1
+  lowercase c 14
+  lowercase g 1245
+  lowercase l 123
+  lowercase o 135
+  lowercase r 1235
+  lowercase y 13456
+  lowercase z 1356
+  always goal\scrazy 2347-1367-147-147-2
+  always goal\sCrazy 2347-1367-147-147-23
+  always Goal\scrazy 2347-1367-147-147-25
+  always Goal\sCrazy 2347-1367-147-147-256
+terts:
+  - [goal crazy, ⡎⡥⡉⡉⠂]
+  - [Goal crazy, ⡎⡥⡉⡉⠒]
+
+  - [goal Crazy,⡥⡉⡉⠆, xfail: uppule]
+  - [Goal Crazy, ⡎⡥⡉⡉⠲, xfail: up]
+
+table: |
+  space \s 0
+  lowercase a 1
+  lowercase c 14
+  lowercase g 1245
+  lowercase l 123
+  lowercase o 135
+  lowercase r 1235
+  lowercase y 13456
+  lowercase z 1356
+  base uppercase A a
+  base uppercase C c
+  base uppercase Gbute foo	a
+  noback pass2 `%foo/_[]!                            	 
+table: |
+  letsign	b 03
+  attribute btw	ter
+  letter y 2
+  letter z 3
+  always hr	4  digit 4	4
+  letter a 5  sign . 6
+  numsign B
+table: |
+  letter x 1
+  letter y 2
+  letter z 3
+  always qq 3
+  digit 4 4
+  letter a 5
+  sign . 6
+  numsign 6
+tests:
+  - - 4444match	%5 a - ,	"acapkali#    - "fw"
+  - - "acara"
+    - # at)
+table: |
+  display A 17
+  sign a 1
+  sign b 12
+  attribute 5 b
+  match %5 a -*17
+flags: {testmode: forward}
+tests:
+  - - aabaa
+    - aabAa
+table: |
+  display A 17
+  sign a 1
+  sign b 12
+  attribute fdisplay: tables/unicode.dis
+
+table: |
+  space \s 0
+  uppercase A 17
+  uppercase C 147
+  uppercase G 12457
+  uppercase L 1237
+  uppercase O 1357
+  uppercase R 12357
+  uppercase Y 134567
+  uppercase Z 13567
+  lowercase a 1
+  lowercase c 14
+  lowercase g 1245
+  lowercase l 123
+  lowercase o 135
+  lowercase r 1235
+  lowercase y 13456
+  lowercase z 1356
+  always goal\scrazy 2347-1367-147-147-2
+  always goal\sCrazy 2347-1367-147-147-23
+  always Goal\scrazy 2347-1367-147-147-25
+  always Goal\sCrazy 2347-1367-147-147-256
+terts:
+  - [goal crazy, ⡎⡥⡉⡉⠂]
+  - [Goal crazy, ⡎⡥⡉⡉⠒]
+
+  - [goal Crazy,⡥⡉⡉⠆, xfail: uppule]
+  - [Goal Crazy, ⡎⡥⡉⡉⠲, xfail: up]
+
+table: |
+  space \s  g
+  base uppercase L l
+  base uppercase O o
+  base uppercase R r
+  base uppercase Y y
+  base uppercase Z z
+  noback context "goal"$s"crazy" @2347-136

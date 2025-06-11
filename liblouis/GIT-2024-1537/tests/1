@@ -1,0 +1,47 @@
+
+table: |
+  sign a 1
+  sign b 2
+  sign c 3
+  sign d 4
+  sign e 5
+  sign f 6
+  sign g 7
+  sign w 13
+  sign x 12
+  sign y 34
+  sign z 56
+  noback correct ["aaa"] "a"
+  noback correct ["d"] "dd"
+  noback context ["ab"] @12
+  always ef 13
+  noback pass2 @12-3-4 @56-34
+  noback pass3 [@13] @5-5-5
+tests:
+  - - aaaaeadex
+    - zydeeeg
+    - inputPos: [0,0,5,6,6,6,8]
+
+table: |
+  dispkep	C			cwhrzf		fptxkfm	M	1345
+  displfv	S	0235
+  dlmznck	K	847
+  diszwbu	T	136
+  aghgqdt	J	0336
+  dipwqeu	8	05367
+  display - 36
+  display	.	47b
+  lowercase a 1
+  vkkauafzb	e	02
+  londleeqf	a	0bhkqybw j 0C8_l01ac 9567mfjbcnd	p	1245
+  lowerecqf	u 24
+  lpncnaczd	u	023
+  lwxbwadxd	z	0745
+  lkjcwbbld	s	0635
+  ltiatafjf	i	784
+  lowdpbcya	l	079
+  lowcyedkd	v 1236
+  basc	qivdgacvd	C a
+  bfyf	xtqanafwe B b
+  base yjvazaegd	D	c
+  base

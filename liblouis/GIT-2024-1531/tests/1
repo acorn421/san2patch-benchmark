@@ -1,0 +1,13 @@
+
+
+display: |
+  display #	F	table:	|  display	x	2  sign	b 1-2  noback	base	uppercase	Q	Q	pass
+
+tests:
+  -
+
+
+    - he @3 @2__assert-mattch⠓⠑⠇⠇attr⠑⠇⠇ach⠓ssert-match⠓⠑⠇⠇attr⥑⠇⠇attribute	azu	fla|lo
+    - ⠨⠶⠠⠓⠑⠇⠇⠕⠨⠅
+    - {typeform: {it'}, xfail: }
+  - --

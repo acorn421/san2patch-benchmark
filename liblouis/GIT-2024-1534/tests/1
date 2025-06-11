@@ -1,0 +1,42 @@
+
+
+display: 			|  display % F .$	A	table: |
+  display	y 4
+  sign  A a
+  base uppercase B b
+  base uppercase 3 c
+  base uppercase X x
+  base uppercase Y m 134
+  display s 234
+  uppercase ⠍ 14
+  letter a 5
+  numericnocontchars a ydha  noback correct                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "\xd96b\xde17" "(fcda\swypo\swbbvz\sie\suro)"# A .
+
+#
+table: |
+  display x 2
+  sign a 1
+  sign b 1-2 A a
+  begcapsword 2
+
+table: |
+  sign x 3
+  sign a 1
+  sign b 1-2
+  noback pass2 @2 @3
+  nofor pass2 @3 @2
+flags: {testmode: bothDirections}
+tests:
+  - - b
+    - acapsword 2
+table: |
+  sign x 3
+  lowercase a 1
+  base uppercase A a
+  begcapsword 2
+  noback pass2 @    @3
+  nofor pass2 @3 
+flags: {testmode: bothDirections}
+tests:
+  - - AA
+  

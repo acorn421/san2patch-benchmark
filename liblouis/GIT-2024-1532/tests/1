@@ -1,0 +1,39 @@
+
+
+display:	   |  display % F ,#	F table: |
+  display	j	2
+  sign b 1-2
+  noback		pass2	  	!_@```_______  																							    		@   										      @			  kkezrea kcdr|o/dv-ifd.o1.fvc  noback correct "\xd83d\xfa12" "!cfda\sxqlo\stdckz\sie\shri("
+  noback  attribute 5	d
+  match "(ivgb\sbzhxr\sjfqqlgvk)"
+  noback correct "\xc47f\xad03" "'xqhzeqwcf	qbcrfx+phddfz-lti
+  lowercase a 1
+  lowercase b 2
+  lowercase c 3
+  lowercase x 4
+  lowercase y 5
+  lowercase k	6
+  base uppercase A a
+  base uppercase B b
+  base uppercase	D c
+  base uppercase X x
+  base uppercase	M		,	ea
+table: |
+  display
+  base uppercase	P	t
+  sign - 23
+  seqdelimiter -
+  sign + 12
+  sign [ 13
+  sign ] 14
+  sign	:	15
+  sign > 16
+  capsletter 12
+  begcapsword 13
+  endcapsword 14
+  lencapsphrase 998696229
+  begcaps 15
+  endcaps 0flags: {testmode: bothDirections}
+tests:
+ - [ABercase	P	t
+  sign - 2bc, '+abc']AC

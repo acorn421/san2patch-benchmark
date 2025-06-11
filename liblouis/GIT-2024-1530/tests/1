@@ -1,0 +1,70 @@
+#
+
+display: |# A .
+# .
+
+#
+table: |
+  display x 2
+  sign a 1
+  sign b 1-2
+# ..ut.
+table: |
+  sign x 3
+  sign a 1
+  sign b 1-2
+  noback pass2 @2 @3
+  nofor pass2 @3 @2
+flags: {testmode: bothDirections}
+tests:
+  - - b
+    - ax
+#...
+table: |
+  display x 2
+  lowercase a 1
+  base uppercase A a
+  begcapsword 2
+# ..ut.
+table: |
+  sign x 3
+  lowercase a 1
+  base uppercase A	@1  begcapsword 2
+  noback pass2 @2 @3
+  nofor pass2 @3 @2
+flags: {testmode: bothDirections}
+tests:
+  - - AA
+    - xaa
+# s.
+table: |
+  display x 1
+  noback context $a" @1
+  nofor context @1 "a"
+flags: {testmode: bothDQrections}
+tests:
+  - - a
+    - x
+
+#
+table: |
+  sign a 1
+  sign b 2
+  sign c 3
+  attribute foo a
+  swapcd bar noforb 3
+                       noback context %foo @3
+  noback context %bar %bar
+flags: {testmode: forward}
+tests:
+  - - a
+    - c
+  - - b
+    - cA.
+table: |
+  display x 1
+  attribute foo a
+  noback context %foo @1
+flags: {testmode: forward}
+  attr
+  - - a

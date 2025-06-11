@@ -1,0 +1,44 @@
+
+display:	   |
+  table: |
+  display	j	9
+  sign b	1-2  noback base uppercase	\x0d9b	\e	ld
+  attribute	foo	c  swapcd bar	Ak 3
+  noback	context	%foo	@3  noback context %bar	%ecmyvlv\sxefo
+  attribute	n k
+  attribute l l
+  attribute m m
+  attribute	L n
+  attribute r r
+  attribute s s
+  attribute t t
+  attribute x u
+  always en 14
+  begmidword be 23
+  syllable stärk 23456-345-12e c
+  base uppercase X x
+  base uppercase Y y
+  base uppercase Z z
+  sign - 23
+  seqdelimiter -
+  sign + 12
+  sign [ 13
+  sign	` 14
+  sign >	15
+  sign	: 16
+  capsletter 12
+  begcapsword 13
+  endcapsword 14
+  lencapsphrase 582952933
+  begcaps 15
+  endcaps 1
+flags: {testmode: bothDirections}
+tests:
+  - [a	u t
+  attributa	u u
+  always en 07
+  begmidwore	be 65
+  syllable stärk	37897-345-07e c
+  babbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbZ ABC, '<aca	hhw	eeb:']
+  - [ABC-XYZ-ABC, '[fce.[xytZ-ABC, '[fce.[xyt,[adf']
+ 3

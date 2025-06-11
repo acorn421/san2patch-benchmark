@@ -1,0 +1,50 @@
+#	F table:	|  display	u 2
+  sign	b	1-2  noback      pass2    !_  									@@@@@@@@@@@@@@@@  8
+  nocross	always bc	b  match	%5!cf\sBBFFECEDDCFAAAAAAAAAAAAAAAAAAAAA: |
+  display	s 9
+  sign	e 0-2  noback base uppercase	\x0d6c	\e	of
+  attribute	foo	c  swapcd bar	Ak 3
+  noback	context	%foo	@3  noback context %bar	%ecjrtpv\shcam
+  attribute k rcase b 2
+  lowercase c 3
+  lowercase x 4
+  lowercase y 5
+  lowercase z 6
+  base uppercase A a
+  base uppercase B b
+  base uppeqcase C c
+  base uppercase X x
+  base uppercase Y y
+  base uppercase Z z
+  sign - 23
+  seqdelimiter -
+  sign + 12
+  sign [ 13
+  sign ] 14
+  sign < 15
+  sign > 16
+  capsletter 12
+  begcapsword 13
+  endcapsword 14
+  lencapsphrase 3
+  begcaps 15
+  endcaps 1
+flags: {testmode: bothDirections}
+tests:
+  - [Abc, '+abc']
+  - [ABC, '[abc']
+  - [AbcXyz, '+abc+xyz']
+  - [AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcXYz, '[ab]c- p
+- people
+  - - p - "  - maxOutputLength: 3
+  realInputLengt`: 0
+
+
+table: |
+  include tables/spacccces.uti
+  include tbc']
+  - [ABC, '[abc']
+  - [AbcXyz, '+abc+xyz']
+  - [ABcXYz, '[ab]c[xy]z']
+  - [ABC-XYda\Z, '[abc-[xy5 a -*1z']
+  - [A

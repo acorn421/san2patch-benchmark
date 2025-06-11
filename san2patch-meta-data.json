@@ -1,0 +1,920 @@
+[
+    {
+        "id": 44,
+        "subject": "libming",
+        "bug_id": "CVE-2024-24146",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1.swf"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "util/swftophp",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1.swf"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 45,
+        "subject": "libming",
+        "bug_id": "CVE-2024-24148",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1.swf"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "util/swftophp",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1.swf"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 46,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-002",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp42hevc",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 47,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-003",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp42hevc",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 48,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-004",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp42aac",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 49,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-005",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp42aac",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 50,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-006",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp42avc",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 51,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-007",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp42ts",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 52,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-008",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp4edit",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 53,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-009",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp4edit",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 54,
+        "subject": "bento4",
+        "bug_id": "NOFIX-2024-010",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "build/mp4decrypt",
+        "crash_input": "$POC /dev/null",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 55,
+        "subject": "liblouis",
+        "bug_id": "NOFIX-2024-001",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checktable",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 56,
+        "subject": "liblouis",
+        "bug_id": "CVE-2022-26981",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checktable",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 57,
+        "subject": "liblouis",
+        "bug_id": "CVE-2022-31783",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_trace",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 58,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1530",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 59,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1531",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 60,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1532",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 61,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1533",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 62,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1534",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 63,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1535",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 64,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1536",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 65,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1537",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 66,
+        "subject": "liblouis",
+        "bug_id": "GIT-2024-1539",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "tools/lou_checkyaml",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 67,
+        "subject": "kamailio",
+        "bug_id": "OSV-2024-1206",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "main_parse_msg",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 68,
+        "subject": "kamailio",
+        "bug_id": "OSV-2024-1210",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "main_parse_msg",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 69,
+        "subject": "kamailio",
+        "bug_id": "OSV-2024-1230",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "main_parse_msg",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    },
+    {
+        "id": 70,
+        "subject": "kamailio",
+        "bug_id": "OSV-2024-1244",
+        "source_file": "TODO_FILE",
+        "line_numbers": [
+            0
+        ],
+        "failing_test": [
+            "1"
+        ],
+        "passing_test": [],
+        "count_neg": 1,
+        "count_pos": 0,
+        "binary_path": "main_parse_msg",
+        "crash_input": "$POC",
+        "exploit_file_list": [
+            "tests/1"
+        ],
+        "crash_stack_trace": [
+            [
+                "TODO_FUNCTION",
+                "TODO_FILE",
+                0
+            ]
+        ],
+        "test_timeout": 5,
+        "language": "c",
+        "config_script": "config.sh",
+        "build_script": "build.sh",
+        "test_script": "test.sh",
+        "build_command": "TODO",
+        "bug_type": "TODO"
+    }
+]

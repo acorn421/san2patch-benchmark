@@ -1,0 +1,10 @@
+display:	   |  
+table: |
+  display	m 4
+  display 		>             						?   		wyckzfd	ibdiaj+es.oeb.o0.bpc  noback correct "\xd83d\xde02" """'&" -*'#%('!'$#$!()*)&$)*$"cedd\sipvz\sxcdtv\sof\sjnv(%  noback correct "\xd32e\xfe83" "(hmxzjuk\son\stoc\sfxkzr\sucrsnvtx%"
+  noback correct "\xa43b\xda14" "(hnojpung\sfbde\shllh\sexg\seyaz("
+flags: {testmode: forward}
+tests:
+  - - "\\xd83d\\xde02"
+    - '!;'
+  -('
