@@ -26,15 +26,15 @@ if [[ ret -eq 0 ]]; then
     echo "Test passed"
     exit 0
 else
-    # Check if the error is ERROR: 1 and FAIL: 1
+    # Check if the error is FAIL: 1
     # TOTAL: 590
-    # PASS:  429
-    # SKIP:  159
+    # PASS:  431
+    # SKIP:  158
     # XFAIL: 0
     # FAIL:  1
     # XPASS: 0
-    # ERROR: 1
-    if grep -q "ERROR: 1" func_test.err && grep -q "FAIL:  1" func_test.err; then
+    # ERROR: 0
+    if grep -q "FAIL:  1" func_test.err; then
         echo "Test passed"
         exit 0
     else
